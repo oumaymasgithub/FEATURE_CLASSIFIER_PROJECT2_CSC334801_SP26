@@ -1,5 +1,5 @@
 # FEATURE_CLASSIFIER_PROJECT2_CSC334801_SP26
-# Assignment 2: Model Comparison
+# Model Comparison
 
 This repository contains the implementation and evaluation of multiple models for text classification. The models included are CNN, LSTM, GRU, and MLP. Each model has its architecture, techniques, and results summarized below.
 
