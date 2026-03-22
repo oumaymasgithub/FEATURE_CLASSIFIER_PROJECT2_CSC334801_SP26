@@ -1,0 +1,14 @@
+Model: MLP
+Accuracy: 0.7776
+
+Classification Report:
+Class 0 - Precision: 0.77, Recall: 0.79, F1-score: 0.78, Support: 4961
+Class 1 - Precision: 0.79, Recall: 0.77, F1-score: 0.78, Support: 5039
+
+Macro Avg - Precision: 0.78, Recall: 0.78, F1-score: 0.78
+Weighted Avg - Precision: 0.78, Recall: 0.78, F1-score: 0.78
+
+Observations:
+- Simpler architecture
+- Lower performance compared to sequence-based models
+- Balanced between classes, but less effective overall
