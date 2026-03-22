@@ -1,0 +1,14 @@
+Model: LSTM
+Accuracy: 0.8708
+
+Classification Report:
+Class 0 - Precision: 0.84, Recall: 0.92, F1-score: 0.88, Support: 4961
+Class 1 - Precision: 0.91, Recall: 0.83, F1-score: 0.87, Support: 5039
+
+Macro Avg - Precision: 0.87, Recall: 0.87, F1-score: 0.87
+Weighted Avg - Precision: 0.87, Recall: 0.87, F1-score: 0.87
+
+Observations:
+- Captures sequential dependencies
+- Good recall for class 0, slightly lower for class 1
+- Slower training compared to CNN
