@@ -1,0 +1,14 @@
+Model: CNN
+Accuracy: 0.8902
+
+Classification Report:
+Class 0 - Precision: 0.91, Recall: 0.87, F1-score: 0.89, Support: 4961
+Class 1 - Precision: 0.87, Recall: 0.91, F1-score: 0.89, Support: 5039
+
+Macro Avg - Precision: 0.89, Recall: 0.89, F1-score: 0.89
+Weighted Avg - Precision: 0.89, Recall: 0.89, F1-score: 0.89
+
+Observations:
+- Strong balance between both classes
+- Slightly higher precision for class 0
+- Efficient for feature extraction in text sequences
