@@ -109,3 +109,31 @@ This repository contains the implementation and evaluation of multiple models fo
 - Simpler architecture; lower performance than CNN or RNN models
 - Balanced performance across classes
 - Useful as a baseline for comparison
+
+
+## LSTM + Word2Vec
+
+### Architecture
+- Input layer: sequences of tokenized text
+- Embedding layer: pretrained Word2Vec vectors
+- LSTM layer(s) for sequential processing
+- Fully connected dense layer
+- Output layer: softmax activation for binary classification
+
+### Techniques Applied
+- Tokenization and padding of input sequences
+- Pretrained Word2Vec embeddings for semantic representation
+- Dropout regularization
+- Early stopping
+- Adam optimizer with categorical crossentropy loss
+- Captures sequential dependencies efficiently
+
+### Results
+- Accuracy: 0.9032
+- Class 0: Precision 0.91, Recall 0.90, F1-score 0.90
+- Class 1: Precision 0.90, Recall 0.91, F1-score 0.90
+
+### Observations
+- Significant improvement over standard LSTM
+- Balanced performance across both classes
+- Effective use of pretrained embeddings enhanced model understanding
